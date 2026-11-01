@@ -6,7 +6,7 @@ BharatVaani is an AI-powered civic complaint management backend designed to supp
 - Speech-to-text transcription using Sarvam AI Saaras v3.
 - Supports multiple Indian languages.
 - AI-based civic complaint classification.
-- Automatic department identification.
+- Automatic department identification
 - Complaint priority detection (High, Medium, Low).
 - REST API built using FastAPI.
 
