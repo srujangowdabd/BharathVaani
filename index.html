@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>BharatVaani Civic</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>🇮🇳 BharatVaani Civic</h1>
+
+        <p class="subtitle">
+            Report your civic problem in your own language
+        </p>
+
+        <div class="card">
+
+            <h2>Submit a Complaint</h2>
+
+            <label for="language">
+    Select your language
+</label>
+
+<select id="language">
+    <option value="kn">Kannada 🇮🇳</option>
+    <option value="ta">Tamil 🇮🇳</option>
+    <option value="te">Telugu 🇮🇳</option>
+    <option value="hi">Hindi 🇮🇳</option>
+    <option value="ml">Malayalam 🇮🇳</option>
+    <option value="mr">Marathi 🇮🇳</option>
+    <option value="bn">Bengali 🇮🇳</option>
+    <option value="en">English 🇮🇳</option>
+</select>
+
+<br><br>
+
+<label for="complaint">
+    Describe your problem
+</label>
+
+<textarea
+    id="complaint"
+    placeholder="Type your complaint here..."
+></textarea>
+
+            <button id="voiceBtn">
+                🎙️ Speak Complaint
+            </button>
+
+            <button id="submitBtn">
+                Submit Complaint
+            </button>
+
+            <div id="result"></div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
